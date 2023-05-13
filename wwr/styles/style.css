@@ -1,0 +1,77 @@
+#content{
+    width: 1600px;
+    margin: 0 auto;  
+}
+nav a {
+    text-align: center;
+    color: #072ac8;
+    text-decoration: none;
+}
+#hero-msg h1, #hero_msg h4 {
+    text-align: center;
+}
+.button_box {
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+#background{
+    height: 725px;
+    background-color: antiquewhite;
+    color: cadetblue;
+}
+body{
+    background-color: rgb(229, 229, 229);
+}
+header{
+    background-color: azure;
+    color: cadetblue;
+}
+nav a:hover {
+    color: #072ac8;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.book, .join {
+  background-color:cadetblue;;
+    color:#072ac8;
+}
+.book:hover, .join:hover{
+    color: cadetblue ;
+    color: antiquewhite;
+}
+.msg {
+    background-color:cadetblue;
+    color: antiquewhite;
+}
+footer{
+    background-color: azure;
+    color: cadetblue;
+    
+}
+.home-title {
+    color: #072ac8;
+}
+h4{
+    color:black
+}
+.msg h2{
+    color: #072ac8;
+}
+.msg p  {color: black;
+}
+footer a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+footer a:hover {
+    color: antiquewhite;
+    color: #072ac8;
+}
+.icon {
+    width: 80px;
+}
+footer p {
+    font-size: 1.2em;
+}   
