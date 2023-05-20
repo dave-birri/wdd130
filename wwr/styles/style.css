@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal&family=Permanent+Marker&display=swap');
+
 content{
     width: 1600px;
     margin: 0 auto;  
@@ -6,6 +8,7 @@ nav a {
     text-align: center;
     color: #072ac8;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -24,47 +27,69 @@ main section{
 }
 body{
     background-color: rgb(229, 229, 229);
+    font-family: Metal, fantasy;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 }
 header{
     background-color: azure;
     color: cadetblue;
 }
 nav a:hover {
+    background-color: cadetblue;
     color: #072ac8;
-    color: antiquewhite;
     text-decoration: none;
 }
 .book, .join {
-    background-color:cadetblue;;
-    color:#072ac8;
+    background-color:antiquewhite;
+    color:cadetblue;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 .book:hover, .join:hover{
-    color: cadetblue ;
     color: antiquewhite;
+    color: #072ac8 ;
 }
 .msg {
     background-color:cadetblue;
     color: antiquewhite;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: azure;
     color: cadetblue;
+    padding: 25px 50px;
     
 }
 .home-title {
     color: #072ac8;
+    font-family: 'Permanent Marker', fantasy, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color:black
 }
 .msg h2{
     color: #072ac8;
+    font-family: 'Permanent Marker', fantasy, Helvetica;
+    
 }
-.msg p  {color: black;
+.msg p  {
+    color: black;
+    font-size: 8pax;
+    padding-bottom: 15px;
 }
 footer a {
     color: antiquewhite;
     text-decoration: none;
+    margin-top: 200px;
 }
 footer a:hover {
     color: antiquewhite;
@@ -72,7 +97,26 @@ footer a:hover {
 }
 .icon, .logo {
     width: 80px;
+    padding-top: 10px;
 }
 footer p {
     font-size: 1.2em;
-}   
+} 
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid antiquewhite;
+}
+main section img{
+    box-sizing: border-box;
+}
