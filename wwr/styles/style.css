@@ -79,7 +79,8 @@ footer{
 }
 .msg p  {
     color: black;
-    font-size: 8px;
+    font-size: 20px;
+    word-spacing: normal;
     padding-bottom: 15px;
 }
 footer a {
